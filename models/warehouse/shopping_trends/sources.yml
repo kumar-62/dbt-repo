@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: shopping_trends
+    database: weighty-triode-443414-k1
+    tables:
+      - name: test_a
