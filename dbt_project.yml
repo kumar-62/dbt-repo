@@ -40,3 +40,9 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+    warehouse:
+      shopping_trends:
+        +dataset : shopping_trends
+        +materialized: table
+
+
