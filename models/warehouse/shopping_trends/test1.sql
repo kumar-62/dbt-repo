@@ -1,1 +1,1 @@
-select * from {{source('shopping_trends','test_a')}}
+select * from {{ source("shopping_trends", "test_a") }}
